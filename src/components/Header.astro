@@ -5,15 +5,13 @@ import { SITE_TITLE } from '../consts';
 
 <header>
 	<nav>
-		<h2><a href="/">{SITE_TITLE}</a></h2>
+		
 		<div class="internal-links">
 			<HeaderLink href="/">Home</HeaderLink>
-			<HeaderLink href="/blog">Blog</HeaderLink>
-			<HeaderLink href="/about">About</HeaderLink>
 		</div>
 		<div class="social-links">
 			<a href="https://www.instagram.com/lottery044/" target="_blank">
-				<span class="sr-only">Say hi to me on Instagram</span>
+				<span class="sr-only">Say hi to me on Instagram!</span>
 				<svg viewBox="0 0 16 16" aria-hidden="true" width="32" height="32"
     				xmlns="http://www.w3.org/2000/svg"
     				fill="currentColor"
@@ -32,6 +30,15 @@ import { SITE_TITLE } from '../consts';
 					></path></svg
 				>
 			</a>
+			<a href="https://www.linkedin.com/in/trevor-lott-295990436/" target="_blank">
+				<span class="sr-only">Go to my LinkedIn profile!</span>
+				<svg viewBox="0 0 16 16" aria-hidden="true" width="40" height="40"
+					><path
+						fill="currentColor"
+						d="M1.15 2.1a.95.95 0 1 1 1.9 0 .95.95 0 0 1-1.9 0zM1.3 4h1.7v8H1.3V4zm4.1 0h1.63v1.1h.02c.23-.43.78-1.1 1.92-1.1 2.05 0 2.43 1.35 2.43 3.1V12H9.7V7.85c0-.99-.02-2.27-1.38-2.27s-1.59 1.08-1.59 2.2V12H5V4h.4z"
+					></path></svg
+				>
+			</a>
 		</div>
 	</nav>
 </header>
@@ -39,7 +46,7 @@ import { SITE_TITLE } from '../consts';
 	header {
 		margin: 0;
 		padding: 0 1em;
-		background: white;
+		background: gray;
 		box-shadow: 0 2px 8px rgba(var(--black), 5%);
 	}
 	h2 {
